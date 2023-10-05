@@ -184,7 +184,7 @@ CREATE TABLE `tg_user` (
 -- Records of tg_user
 -- ----------------------------
 BEGIN;
-INSERT INTO `tg_user` (`id`, `guid`, `email`, `password`, `password_random`, `token`, `role_use`, `login_count`, `last_ip`, `status`, `create_time`, `update_time`, `groupId`, `taskNumber`, `tgNumber`, `tgGroupNumber`) VALUES (1, '16439214-fc45-11e9-bd65-38f9d309cec3', 'x@x.com', 'pbkdf2:sha256:150000$hc1J25Ni$558542e7462955ab209b1058b7fa4b5fead04e6f1d61dcc147d0c5fa157e332a', '24', 'e6dc5b13dd8910d2b5c43e43061f991d', 1, 25, '127.0.0.1', 1, 1572570926, 1651217583, NULL, NULL, NULL, NULL);
+INSERT INTO `tg_user` (`id`, `guid`, `email`, `password`, `password_random`, `token`, `role_use`, `login_count`, `last_ip`, `status`, `create_time`, `update_time`, `groupId`, `taskNumber`, `tgNumber`, `tgGroupNumber`) VALUES (1, '16439214-fc45-11e9-bd65-38f9d309cec3', '', 'pbkdf2:sha256:150000$hc1J25Ni$558542e7462955ab209b1058b7fa4b5fead04e6f1d61dcc147d0c5fa157e332a', '24', 'e6dc5b13dd8910d2b5c43e43061f991d', 1, 25, '127.0.0.1', 1, 1572570926, 1651217583, NULL, NULL, NULL, NULL);
 COMMIT;
 
 -- ----------------------------
